@@ -1,0 +1,36 @@
+{
+  "name": "rethink-to-csv",
+  "version": "1.0.0",
+  "description": "Export RethinkDB Tables to CSV files",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grailian/rethink-to-csv.git"
+  },
+  "keywords": [
+    "RethinkDb",
+    "Node.js",
+    "CLI",
+    "CSV"
+  ],
+  "author": "Ian Grail",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/grailian/rethink-to-csv/issues"
+  },
+  "homepage": "https://github.com/grailian/rethink-to-csv#readme",
+  "dependencies": {
+    "chalk": "^2.0.1",
+    "co": "^4.6.0",
+    "dotenv": "^4.0.0",
+    "inquirer": "^3.2.1",
+    "json2csv": "^3.10.0",
+    "mkdirp": "^0.5.1",
+    "moment": "^2.18.1",
+    "ora": "^1.3.0",
+    "rethinkdb": "^2.3.3"
+  }
+}
