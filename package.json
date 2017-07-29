@@ -48,6 +48,7 @@
   },
   "devDependencies": {
     "chai": "^4.1.0",
+    "cz-conventional-changelog": "^2.0.0",
     "eslint": "^4.3.0",
     "in-publish": "^2.0.0",
     "istanbul": "^0.4.5",
@@ -55,5 +56,10 @@
     "mockery": "^2.1.0",
     "sinon": "^2.4.1",
     "standard-version": "^4.2.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
   }
 }
