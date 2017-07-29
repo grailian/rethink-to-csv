@@ -20,11 +20,10 @@
   "main": "./lib/rethink-to-csv.js",
   "scripts": {
     "start": "node ./lib/rethink-to-csv.js",
-    "build": "webpack",
     "test": "eslint . && mocha",
     "test-coverage": "istanbul cover node_modules/mocha/bin/_mocha -- -R spec",
     "prepublish": "in-publish && npm run before:publish || not-in-publish",
-    "before:publish": "npm test && npm run build && npm run deploy:docs",
+    "before:publish": "npm test",
     "release": "standard-version"
   },
   "repository": {
