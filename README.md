@@ -1,7 +1,7 @@
 # rethink-to-csv
 Node.js CLI module to Export RethinkDB Tables to CSV files
 
-[![npm version][npm-badge]][npm-badge-url]
+[![npm version](https://badge.fury.io/js/rethink-to-csv.svg)](https://badge.fury.io/js/rethink-to-csv)
 [![Build Status](https://travis-ci.org/grailian/rethink-to-csv.svg?branch=master)](https://travis-ci.org/grailian/rethink-to-csv)
 [![Coverage Status](https://coveralls.io/repos/github/grailian/rethink-to-csv/badge.svg?branch=master)](https://coveralls.io/github/grailian/rethink-to-csv?branch=master)
 [![Dependency Status](https://david-dm.org/grailian/rethink-to-csv/status.svg)](https://david-dm.org/grailian/rethink-to-csv)
