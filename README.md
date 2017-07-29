@@ -42,8 +42,8 @@ The following Environment Variables are required in order to run:
 ```bash
 RETHINK_HOST={hostname} # i.e. localhost
 RETHINK_PORT={port} # i.e. 28015
-RETHINK_USER={user} i.e. admin
-RETHINK_PASS={password{
+RETHINK_USER={user} # i.e. admin
+RETHINK_PASS={password}
 RETHINK_DB_NAME={database name}
 ```
 
