@@ -1,3 +1,5 @@
+#! /usr/bin/env node
+
 const co = require('co');
 const r = require('rethinkdb');
 const inquirer = require('inquirer');
@@ -50,7 +52,7 @@ const jsonToCSV = function (table, data) {
         const csv = json2csv({ data, fields });
         const date = moment().utc().format('YYYY-MM-DD_HH-mm-ss');
         const filename = `${connectionInfo.db}_${table}_${date}.csv`;
-        const filePath = path.join(__dirname, '..', 'exports');
+        const filePath = path.join(process.cwd(), 'exports');
         const fullPath = path.join(filePath, filename);
         mkdirp.sync(filePath);
         fs.writeFile(fullPath, csv, function (err) {
